@@ -1,0 +1,24 @@
+:host {
+    display: block;
+    width: 600px;
+}
+
+status-display {
+    display: inline-block;
+    margin: 4px;
+}
+
+.small {
+    height: 150px;
+    width: 150px;
+}
+
+.large {
+    height: 225px;
+    width: 250px;
+}
+
+.full-line {
+    display: block;
+    width: 100%;
+}

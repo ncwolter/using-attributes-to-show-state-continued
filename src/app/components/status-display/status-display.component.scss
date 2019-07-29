@@ -1,0 +1,36 @@
+.card {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.status-display {
+    &[status='Pending'] {
+        border-color: lightgrey;
+        label{
+            color: lightgrey;
+        }
+    }
+    &[status='Running'] {
+        border-color: lightseagreen;
+        label{
+            color: lightseagreen;
+        }
+    }
+    &[status='Failed'] {
+        border-color: darkred;
+        label{
+            color: darkred;
+        }
+    }
+    &[status='Successful'] {
+        border-color: green;
+        label{
+            color: green;
+        }
+    }
+}
